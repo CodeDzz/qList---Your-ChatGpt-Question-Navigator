@@ -1,0 +1,347 @@
+#_9r39c9aq {
+    position: fixed;
+    top: 70px;
+    left: 280px;
+    width: 340px;
+    height: 90vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+}
+
+#_9r39c9aq._x32hny5e {
+    left: 40px;
+}
+
+#_re54yhcy {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 300px;
+    height: 30px;
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Vertically align items */
+    padding: 5px;
+    /* Add padding for spacing inside the container */
+    box-sizing: border-box;
+    /* Ensure padding is included in the width/height */
+    gap: 10px;
+    /* Adds space between the input and button */
+
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+
+}
+
+#_t8iz36z0 {
+    flex: 1;
+    /* Automatically adjust width to take available space */
+    height: 25px;
+    /* Match the container height */
+    background-color: #ffffff;
+    /* White background for contrast */
+
+    border-radius: 4px;
+    /* Rounded corners */
+    padding: 2px;
+    /* Padding inside the box */
+    box-sizing: border-box;
+    /* Includes padding in the width */
+    line-height: 20px;
+    outline: none;
+    /* Remove the default outline */
+    font-family: sans-serif;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #4d4d4d;
+    overflow: hidden;
+}
+
+#_ueif8u0d {
+
+    width: 25px;
+    /* Size of the clickable area */
+    height: 23px;
+    /* Size of the clickable area */
+    display: flex;
+    /* Center the SVG icon */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Subtle background for better visibility */
+
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    /* Smooth hover effects */
+    border-radius: 5px;
+}
+
+#_ueif8u0d:hover {
+    background-color: rgba(255, 255, 255, 1);
+    /* Slightly brighter on hover */
+}
+
+#_ueif8u0d svg {
+    width: 20px;
+    /* Icon size */
+    height: 20px;
+    /* Icon size */
+    fill: none;
+    /* Ensure stroke is visible */
+    stroke: #b3b3b3;
+    /* Default stroke color */
+    transition: stroke 0.2s ease;
+    /* Smooth color transition */
+}
+
+#_ueif8u0d:hover svg {
+    stroke: #8d8d8d;
+    /* Darker stroke on hover */
+}
+
+/* _80ph8ym5 */
+
+#_80ph8ym5 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 320px;
+    height: 84vh;
+    padding: 10px;
+    overflow-y: auto;
+
+}
+
+#_80ph8ym5::-webkit-scrollbar {
+    all: unset;
+    width: 5px;
+    height: 10px;
+}
+
+#_80ph8ym5::-webkit-scrollbar-track {
+    all: unset;
+    background: #989898;
+    border-radius: 10px;
+}
+
+#_80ph8ym5::-webkit-scrollbar-thumb {
+    all: unset;
+    background: #3e3e3e;
+    border-radius: 10px;
+}
+
+#_80ph8ym5::-webkit-scrollbar-thumb:hover {
+    all: unset;
+    background: #555;
+}
+
+#_80ph8ym5 ul {
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 0;
+}
+
+#_80ph8ym5 li {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    color: #4d4d4d;
+    user-select: none;
+    transition: all 0.1s ease;
+}
+
+#_80ph8ym5 li:hover {
+    background-color: #e6f7ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #80d0ff;
+    color: #333333;
+}
+
+/* _bcv7si2i */
+
+#_bcv7si2i {
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+
+    display: flex;
+    /* Enables flexbox layout */
+    flex-direction: column;
+    /* Stack child elements top to bottom */
+    gap: 10px;
+    /* Space between the stacked elements */
+    background: transparent;
+    /* Ensure container is invisible */
+    z-index: 1000;
+    /* Ensure it stays above other elements */
+
+}
+
+#_bcv7si2i>div {
+    position: relative;
+    /* Necessary for tooltip positioning */
+    background-color: rgb(231, 231, 231);
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    color: #747474;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    /* Vertically center content */
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    /* Center icon or text inside */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    user-select: none;
+}
+
+#_bcv7si2i>div:hover {
+
+    transform: scale(1.05);
+    /* Scales the button to 105% */
+    transition: transform 0.3s ease;
+    /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Enhance shadow */
+
+}
+
+#_bcv7si2i>div::after {
+    content: attr(data-tooltip);
+    /* Use the data-tooltip attribute for the tooltip text */
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    left: calc(100% + 10px);
+    /* Position to the right of the element, with 10px gap */
+    transform: translateY(-50%);
+    /* Adjust for vertical centering */
+    background-color: #333;
+    /* Tooltip background color */
+    color: #fff;
+    /* Tooltip text color */
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    /* Prevent text wrapping */
+    font-size: 12px;
+    opacity: 0;
+    /* Initially hidden */
+    visibility: hidden;
+    /* Prevents interaction when hidden */
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    z-index: 1000;
+    /* Ensure tooltip appears above other elements */
+}
+
+#_bcv7si2i>div:hover::after {
+    opacity: 1;
+    /* Show the tooltip */
+    visibility: visible;
+    /* Make it interactable */
+}
+
+/* dark-theme */
+
+/* Dark theme for the top-right fixed container */
+#_9r39c9aq.dark {
+    background-color: #1E1E1E;
+    border: 1px solid #333333;
+}
+
+/* Dark theme for the filter container */
+#_re54yhcy.dark {
+    background-color: #2D2D2D;
+    border: 1px solid #2D2D2D;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Dark theme for the input field */
+#_t8iz36z0.dark {
+    background-color: #3C3C3C;
+    color: #E0E0E0;
+    border-radius: 4px;
+}
+
+/* Dark theme for the clear button */
+#_ueif8u0d.dark {
+    background-color: rgba(60, 60, 60, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#_ueif8u0d.dark:hover {
+    background-color: rgba(60, 60, 60, 1);
+}
+
+#_ueif8u0d.dark svg {
+    stroke: #868686;
+}
+
+#_ueif8u0d.dark:hover svg {
+    stroke: #c8c8c8;
+}
+
+/* Dark theme for the chat question list */
+#_80ph8ym5.dark {
+    background-color: #1E1E1E;
+    border: 1px solid #1E1E1E;
+}
+
+#_80ph8ym5 li.dark {
+    background-color: #2D2D2D;
+    border: 1px solid #444444;
+    color: #CCCCCC;
+}
+
+#_80ph8ym5 li.dark:hover {
+    background-color: #333333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-color: #555555;
+    color: #FFFFFF;
+}
+
+/* Dark theme for the tools container */
+#_bcv7si2i.dark {
+    background: transparent;
+}
+
+#_bcv7si2i>div.dark {
+    background-color: #2D2D2D;
+    border: 1px solid #444444;
+    color: #CCCCCC;
+}
+
+#_bcv7si2i>div.dark:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Dark theme tooltips */
+#_bcv7si2i>div.dark::after {
+    background-color: #444444;
+    color: #E0E0E0;
+    border-radius: 4px;
+}
+

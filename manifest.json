@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "qList - Your Question Navigator for ChatGpt",
+    "description": "A interactive list that lets you jump directly to the content",
+    "version": "1.0.0",
+    "action": {
+        "default_icon": "./icon_16.png"
+    },
+    "icons": {
+        "16": "./icon_16.png",
+        "48": "./icon_48.png",
+        "128": "./icon_128.png"
+    },
+    "background": {
+        "service_worker": "./background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chatgpt.com/c/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "webNavigation",
+        "contextMenus",
+        "storage"
+    ],
+    "options_page": "options.html"
+}
