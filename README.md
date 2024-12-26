@@ -9,3 +9,7 @@
 - 🔍 **Search and filter questions** to find exactly what you need.
 - 🌙 **Dark mode support** for comfortable use anytime.
 ![screenshots](https://github.com/user-attachments/assets/2a68ee71-5df7-4a3e-b869-90ab240fa902)
+
+## Support
+![pa](https://github.com/user-attachments/assets/b15a1563-b660-4d5f-b3fa-18f9a8c5bee2)
+![ze](https://github.com/user-attachments/assets/f0919d6b-9807-48fd-8bd1-0e380305f020)
