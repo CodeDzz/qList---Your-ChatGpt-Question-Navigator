@@ -1,6 +1,6 @@
 # Full Description
 
-**Interactive Question Navigator** is the ultimate productivity tool for browsing questions. This Chrome extension displays questions in a clean, clickable list format, allowing you to jump directly to the relevant content on the page with a single click.
+**Interactive Question Navigator** is a productivity tool for browsing questions. This Chrome extension displays questions in a clean, clickable list format, allowing you to jump directly to the corresponding conversation you had with the chatgpt on a single page with one click.
 
 ## Key Features
 
