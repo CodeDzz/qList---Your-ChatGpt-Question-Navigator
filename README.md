@@ -11,7 +11,7 @@
 ![screenshots](https://github.com/user-attachments/assets/2a68ee71-5df7-4a3e-b869-90ab240fa902)
 
 <hr>
-# ChatGpt问题列表
+## ChatGpt问题列表
 
 **ChatGpt问题列表** 是一款用于浏览问题的高效工具。这款 Chrome 扩展以简洁、可点击的列表形式显示问题，使您可以一键跳转到与 ChatGPT 在单个页面上对应的对话位置。
 
