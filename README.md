@@ -10,7 +10,19 @@
 - 🌙 **Dark mode support** for comfortable use anytime.
 ![screenshots](https://github.com/user-attachments/assets/2a68ee71-5df7-4a3e-b869-90ab240fa902)
 
+<hr>
+# 交互式问题导航器
 
+**交互式问题导航器** 是一款用于浏览问题的高效工具。这款 Chrome 扩展以简洁、可点击的列表形式显示问题，使您可以一键跳转到与 ChatGPT 在单个页面上对应的对话位置。
+
+## 主要功能
+
+- 📋 **以可滚动列表显示问题**
+- 🖱️ **点击任意问题，即可瞬间跳转到页面中的对应位置**
+- 🔍 **搜索并筛选问题，快速找到您需要的内容**
+- 🌙 **支持深色模式，让您随时舒适使用**
+
+<hr>
 ## Support
 
 <div style="text-align: center;">
